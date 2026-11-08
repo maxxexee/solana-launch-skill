@@ -2,7 +2,7 @@
 
 The definitive Solana protocol launch playbook for the Solana AI Kit.
 
-Every phase of a token or protocol launch — from pre-launch security gates to post-launch growth loops — in one progressive, token-efficient skill.
+Every phase of a token or protocol launch - from pre-launch security gates to post-launch growth loops - in one progressive, token-efficient skill.
 
 ## The Problem This Solves
 
@@ -12,9 +12,8 @@ This skill fixes that.
 
 ## What Is Inside
 
-```
+```text
 solana-launch-skill/
-│
 ├── skill/
 │   ├── SKILL.md                          ← Start here. Routes everything.
 │   │
@@ -32,33 +31,40 @@ solana-launch-skill/
 │   │
 │   └── post-launch/
 │       ├── CEX-PREP.md                   ← Exchange listing requirements and timeline
-│       ├── INCIDENT-RESPONSE.md          ← Exploit, rug accusation, price crash
+│       ├── INCIDENT-RESPONSE.md          ← When things go wrong: exploit, rug accusation, depeg
 │       └── GROWTH-LOOPS.md               ← Retention, incentive design, sustainable TVL
-│
 ├── commands/
 │   ├── launch-audit.md                   ← /launch-audit: interview → pass/fail report
 │   ├── tokenomics-sim.md                 ← /tokenomics-sim: model your distribution
 │   ├── launch-sim.md                     ← /launch-sim: simulate launch day dynamics
 │   └── grant-writer.md                   ← /grant-writer: generate a grant application
-│
 ├── agents/
 │   └── launch-coordinator.md             ← Multi-role war room agent
-│
 └── rules/
     └── launch-principles.md              ← Always-on principles for every response
 ```
+
+## Repository Assets
+
+| Asset | Description |
+|---|---|
+| `docs/assets/banner.png` | 2560x800 banner image |
+| `docs/assets/social-preview.png` | 1280x640 social preview |
+| `docs/assets/screen-landing.png` | 1600x1000 landing screenshot |
+| `docs/assets/screen-vault.png` | 1600x1000 vault screenshot |
+| `docs/assets/screen-dashboard.png` | 1600x1000 dashboard screenshot |
 
 ## Quick Start
 
 **Option 1: Install into Solana AI Kit (Claude Code)**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/YOUR_REPO/solana-launch-skill/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/maxxexee/solana-launch-skill/main/install.sh)
 ```
 
 **Option 2: Claude.ai Project Knowledge**
 1. Open Claude.ai and go to your project
 2. Add `skill/SKILL.md` as a knowledge file
-3. Ask: "I'm preparing to launch a Solana protocol — run /launch-audit"
+3. Ask: "I'm preparing to launch a Solana protocol - run /launch-audit"
 
 **Option 3: Cursor or Windsurf**
 Copy `skill/SKILL.md` content into `.cursor/rules` or your project rules file.
@@ -72,7 +78,7 @@ These are the fastest entry points. Each produces structured, actionable output.
 
 | Command | What it does |
 |---|---|
-| `/launch-audit` | 8 questions → full pass/fail launch readiness report with score and blockers |
+| `/launch-audit` | 5 questions → full launch readiness report with pass/fail gates |
 | `/tokenomics-sim` | Models your token distribution, vesting schedule, and unlock pressure month-by-month |
 | `/launch-sim` | Simulates launch day: price impact at various buy/sell sizes, snipe risk score, LP depth verdict |
 | `/grant-writer` | Generates a complete grant application for Solana Foundation, Superteam, or Colosseum |
@@ -105,7 +111,7 @@ These are the fastest entry points. Each produces structured, actionable output.
 
 **Novelty:** No consolidated, AI-accessible launch playbook existed. Launch knowledge was tribal.
 
-**Quality:** Production-grade content covering the 2026 stack — Jito bundles, Meteora Alpha Vault, Squads v4, CLMM, Streamflow. Code samples are real and functional.
+**Quality:** Production-grade content covering the 2026 stack - Jito bundles, Meteora Alpha Vault, Squads v4, CLMM, Streamflow. Code samples are real and functional.
 
 **Fit:** Progressive loading, clean SKILL.md routing, cross-skill integration, installer script. Slots directly into the kit.
 

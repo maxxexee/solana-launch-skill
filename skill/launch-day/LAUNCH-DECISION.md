@@ -26,7 +26,7 @@ Best for: meme coins, community coins, tokens where the culture is the product.
 **Mechanics:** bonding curve launch where price increases as supply is purchased. Graduates to Raydium when market cap hits roughly $69K. 1% fee on buys and sells.
 
 **Pros:**
-- Zero setup friction — token live in minutes
+- Zero setup friction - token live in minutes
 - Built-in discovery engine (thousands of traders watching)
 - Proven graduation path to Raydium liquidity
 
@@ -73,7 +73,7 @@ SDK: `@meteora-ag/alpha-vault`
 
 Best for: projects with established community and VC backing that want Raydium's distribution.
 
-**Mechanics:** application-based — Raydium selects projects. Oversubscription allocation: excess refunded. Directly launches into Raydium CLMM pool.
+**Mechanics:** application-based - Raydium selects projects. Oversubscription allocation: excess refunded. Directly launches into Raydium CLMM pool.
 
 **Requirements as of 2026:**
 - Working product or strong MVP
@@ -92,7 +92,7 @@ Best for: projects with established community and VC backing that want Raydium's
 
 ## Direct LP Seeding
 
-Best for: protocols launching without a token sale — community airdrop and instant trading.
+Best for: protocols launching without a token sale - community airdrop and instant trading.
 
 **Mechanics:**
 1. Airdrop tokens to community

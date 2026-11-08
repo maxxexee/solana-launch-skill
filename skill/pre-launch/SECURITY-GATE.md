@@ -10,7 +10,7 @@ All must pass before launch.
 ### 1. Program Verification
 
 - [ ] Program deployed to mainnet is bit-for-bit identical to audited source
-- [ ] Verified on-chain via `solana program show <PROGRAM_ID>` — check executable data hash
+- [ ] Verified on-chain via `solana program show <PROGRAM_ID>` - check executable data hash
 - [ ] Source code published and pinned on GitHub with matching commit hash
 - [ ] No unaudited last-minute changes post-audit, even small ones
 
@@ -27,7 +27,7 @@ sha256sum deployed.so
   - Multisig (recommended): use Squads Protocol, minimum 3-of-5
   - Single key: only acceptable for testnet, never mainnet
 
-If you are launching with a single EOA as upgrade authority, you will be exploited or accused of being a rug. This is not a preference — it is a historical fact.
+If you are launching with a single EOA as upgrade authority, you will be exploited or accused of being a rug. This is not a preference - it is a historical fact.
 
 ### 3. Authority and Admin Key Audit
 
@@ -56,7 +56,7 @@ No audit is an automatic fail. "We'll audit post-launch" is how $50M protocols g
 
 ### 6. Token Contract Checks
 
-- [ ] SPL token standard — no custom token program unless audited separately
+- [ ] SPL token standard - no custom token program unless audited separately
 - [ ] Freeze authority: intentional. If frozen: document why. If burned: confirm irreversible.
 - [ ] Metadata: immutable flag set if supply/metadata should not change
 - [ ] No hidden mint function accessible by deployer after launch
@@ -64,8 +64,8 @@ No audit is an automatic fail. "We'll audit post-launch" is how $50M protocols g
 ### 7. Frontend and RPC
 
 - [ ] dApp does not expose private keys or mnemonics anywhere in client code
-- [ ] RPC endpoint is rate-limited — never expose a paid key in frontend JS
-- [ ] Wallet adapter: using latest `@solana/wallet-adapter` — no forks
+- [ ] RPC endpoint is rate-limited - never expose a paid key in frontend JS
+- [ ] Wallet adapter: using latest `@solana/wallet-adapter` - no forks
 - [ ] Transaction simulation before signing (never blind-sign)
 
 ### 8. Devnet Dress Rehearsal

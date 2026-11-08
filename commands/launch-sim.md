@@ -45,14 +45,14 @@ Initial LP value:      $[X]
 LP type:               [Standard / CLMM]
 Circulating mcap / LP: [X.Xx]  [PASS at or below 1x / WARN 1 to 3x / FAIL above 3x]
 
-PRICE IMPACT — BUY
+PRICE IMPACT - BUY
 Buy $1,000:    +[X.X]% price impact  → new price $[X]
 Buy $5,000:    +[X.X]% price impact  → new price $[X]
 Buy $10,000:   +[X.X]% price impact  → new price $[X]
 Buy $50,000:   +[X.X]% price impact  → new price $[X]
 Buy $100,000:  +[X.X]% price impact  → new price $[X]
 
-PRICE IMPACT — SELL
+PRICE IMPACT - SELL
 Sell 1% of circ supply:   -[X.X]% price impact
 Sell 5% of circ supply:   -[X.X]% price impact
 Sell 10% of circ supply:  -[X.X]% price impact
@@ -72,7 +72,7 @@ Worst case (no Jito): a sniper buying 10% of LP value in the first transaction:
   Sniper entry advantage vs fair price: [X]%
   Community buys at average: $[X] post-snipe
 
-[If Jito is NO and venue has low protection: CRITICAL warning — load JITO-BUNDLES.md]
+[If Jito is NO and venue has low protection: CRITICAL warning - load JITO-BUNDLES.md]
 ```
 
 **Simulation C: First Hour Projection**

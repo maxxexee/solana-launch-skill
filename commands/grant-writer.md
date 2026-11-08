@@ -63,7 +63,7 @@ Generate a complete application using the appropriate template below.
 ### Template: Solana Foundation Developer Grant
 
 ```
-APPLICATION — SOLANA FOUNDATION DEVELOPER GRANT
+APPLICATION - SOLANA FOUNDATION DEVELOPER GRANT
 
 PROJECT NAME
 [Protocol name]
@@ -79,10 +79,10 @@ Reference real protocols or builders who face this problem if possible.]
 SOLUTION
 [2 to 3 paragraphs. What does your protocol do and how does it work?
 Explain the mechanism, not just the outcome.
-Include a brief technical description — auditors and engineers read these.]
+Include a brief technical description - auditors and engineers read these.]
 
 WHY SOLANA
-[1 paragraph. Specific technical or ecosystem reasons — Solana's parallelism,
+[1 paragraph. Specific technical or ecosystem reasons - Solana's parallelism,
 low fees, composability with [specific protocol], Helius webhook infra, etc.
 Avoid "Solana is fast and cheap" without specifics.]
 
@@ -111,14 +111,14 @@ TECHNICAL IMPLEMENTATION
 ROADMAP (with grant funding)
 [Month 1: specific deliverable]
 [Month 2: specific deliverable]
-[Month 3: specific deliverable — what does "success" look like?]
+[Month 3: specific deliverable - what does "success" look like?]
 
 GRANT AMOUNT REQUESTED: $[X]
 
 BUDGET BREAKDOWN
-[Item]: $[X]  ([X]% of total) — [one-line rationale]
-[Item]: $[X]  ([X]% of total) — [one-line rationale]
-[Item]: $[X]  ([X]% of total) — [one-line rationale]
+[Item]: $[X]  ([X]% of total) - [one-line rationale]
+[Item]: $[X]  ([X]% of total) - [one-line rationale]
+[Item]: $[X]  ([X]% of total) - [one-line rationale]
 
 ECOSYSTEM IMPACT
 [1 paragraph. How does this make Solana better for builders or users?
@@ -138,7 +138,7 @@ LINKS
 ### Template: Superteam Grants
 
 ```
-APPLICATION — SUPERTEAM GRANTS
+APPLICATION - SUPERTEAM GRANTS
 
 BUILDER NAME / TEAM
 [Name or pseudonym. Location or Superteam chapter if applicable.]
@@ -166,11 +166,11 @@ WHO IS ON THE TEAM AND WHY ARE YOU THE RIGHT PEOPLE?
 "Built X at Y, shipped Z open source" beats "5 years of experience in blockchain".]
 
 WHAT WILL YOU BUILD WITH THIS GRANT?
-[Specific milestones. Superteam reviewers are builders — they can tell if milestones are real.]
+[Specific milestones. Superteam reviewers are builders - they can tell if milestones are real.]
 
-[Milestone 1 — [X weeks]: what gets built, how it will be tested, how you will know it worked]
-[Milestone 2 — [X weeks]: same format]
-[Milestone 3 — [X weeks]: same format]
+[Milestone 1 - [X weeks]: what gets built, how it will be tested, how you will know it worked]
+[Milestone 2 - [X weeks]: same format]
+[Milestone 3 - [X weeks]: same format]
 
 HOW MUCH ARE YOU REQUESTING?
 $[X] USDC
@@ -194,7 +194,7 @@ LINKS
 ### Template: Colosseum Hackathon / Accelerator
 
 ```
-APPLICATION — COLOSSEUM
+APPLICATION - COLOSSEUM
 
 PROJECT NAME
 [Protocol name]
@@ -206,7 +206,7 @@ ELEVATOR PITCH (50 words max)
 [One punchy paragraph. What it is, who it is for, why now.]
 
 THE PROBLEM (be specific)
-[What is broken today? Give a concrete scenario — walk through what a builder or user
+[What is broken today? Give a concrete scenario - walk through what a builder or user
 experiences right now that your protocol fixes. Numbers help.]
 
 YOUR SOLUTION
@@ -220,7 +220,7 @@ TECH STACK
 [Programs: Anchor or native Rust? Key accounts? SDK? Frontend framework?]
 
 TEAM (each member, one line each)
-[Name — role — one notable prior project or credential]
+[Name - role - one notable prior project or credential]
 
 TRACTION
 [Any users, volume, TVL, GitHub stars, Discord members, or waitlist signups.
@@ -231,7 +231,7 @@ MARKET
 Why is now the right time and why are you the right team?]
 
 WHAT DO YOU NEED FROM COLOSSEUM?
-[Beyond funding — mentorship areas, specific connections, ecosystem partnerships]
+[Beyond funding - mentorship areas, specific connections, ecosystem partnerships]
 
 GRANT / INVESTMENT ASK
 $[X]
@@ -253,13 +253,13 @@ Strongest parts of this application:
 [2 to 3 things the user should keep as-is]
 
 Weakest parts (needs work before submitting):
-[2 to 3 specific gaps — missing metrics, vague milestones, etc.]
+[2 to 3 specific gaps - missing metrics, vague milestones, etc.]
 
 Before submitting:
 [ ] Have a second builder read it for clarity (not grammar, clarity)
 [ ] Verify all links are live and public
 [ ] Confirm budget numbers are defensible if asked
-[ ] Check the grant program's current focus areas — align your framing to their priorities
+[ ] Check the grant program's current focus areas - align your framing to their priorities
 
 Common rejection reasons to avoid:
   Milestones are vague ("improve the product") → make them binary pass/fail

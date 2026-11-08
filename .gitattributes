@@ -1,0 +1,5 @@
+# Git attributes for consistent line endings and diffs
+# Anchor all markdown to CRLF for GitHub rendering, other files to LF
+* text=auto
+*.md text eol=crlf
+*.{js,mjs,ts,json,yaml,yml} text eol=lf

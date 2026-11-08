@@ -1,6 +1,6 @@
 # Legal Basics
 
-This is orientation, not legal advice. Use it to know what questions to ask a crypto lawyer — not to replace one.
+This is orientation, not legal advice. Use it to know what questions to ask a crypto lawyer - not to replace one.
 For deep compliance work → load `crypto-legal-skill/SKILL.md`
 
 ## The First Question: What Is Your Token?
@@ -26,7 +26,7 @@ A token is likely a security if all four are true:
 3. With expectation of profits
 4. From the efforts of others
 
-If your token pitch says "earn," "yield," "revenue share," or "appreciate in value" — you are three-quarters of the way to a security and need legal counsel.
+If your token pitch says "earn," "yield," "revenue share," or "appreciate in value" - you are three-quarters of the way to a security and need legal counsel.
 
 ## Jurisdiction Quick Reference
 
@@ -72,9 +72,9 @@ async function checkGeoBlock(ip: string): Promise<boolean> {
 }
 ```
 
-Geofencing is not a legal shield — it is due diligence. A determined US person can use a VPN. Document that you made reasonable efforts.
+Geofencing is not a legal shield - it is due diligence. A determined US person can use a VPN. Document that you made reasonable efforts.
 
-## KYC/AML — When You Need It
+## KYC/AML - When You Need It
 
 **You need KYC/AML if:**
 - Running an IDO with USD/EUR fiat on-ramp
@@ -102,7 +102,7 @@ Provider options: Sumsub, Persona, Jumio, Synaps (crypto-native)
 
 ## Language to Never Use in Public
 
-Never say in any public channel — Discord, Twitter, docs:
+Never say in any public channel - Discord, Twitter, docs:
 - "Token price will increase" or "guaranteed returns"
 - "We will buy back tokens to support price"
 - "Early investors will profit"

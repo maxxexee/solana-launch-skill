@@ -64,19 +64,19 @@ import express from 'express';
 
 const router = express.Router();
 
-// GET /supply/circulating — returns circulating supply as plain number
+// GET /supply/circulating - returns circulating supply as plain number
 router.get('/supply/circulating', async (req, res) => {
   const circulating = await getCirculatingSupply();
   res.type('text/plain').send(circulating.toString());
 });
 
-// GET /supply/total — returns total supply
+// GET /supply/total - returns total supply
 router.get('/supply/total', async (req, res) => {
   const total = await getTotalSupply();
   res.type('text/plain').send(total.toString());
 });
 
-// GET /tokeninfo — CoinGecko/CoinMarketCap style endpoint
+// GET /tokeninfo - CoinGecko/CoinMarketCap style endpoint
 router.get('/tokeninfo', async (req, res) => {
   res.json({
     name: "Your Token",
@@ -150,10 +150,10 @@ Never give a market maker tokens without a written agreement with clear return t
 
 In order of importance, based on 2026 listing patterns:
 
-1. Real usage — on-chain transactions, TVL, daily active addresses (not bots)
-2. Community size and engagement — not follower count, but DAU and engagement rate
-3. Legal clarity — token classification opinion, no US regulatory overhang
-4. Team credibility — doxxed, experienced, no prior rug associations
-5. Volume — 30-day average DEX volume (they will check DEX data, not your claims)
-6. Security — audit from recognized firm
-7. Longevity — protocol that has been live and functional for 3+ months
+1. Real usage - on-chain transactions, TVL, daily active addresses (not bots)
+2. Community size and engagement - not follower count, but DAU and engagement rate
+3. Legal clarity - token classification opinion, no US regulatory overhang
+4. Team credibility - doxxed, experienced, no prior rug associations
+5. Volume - 30-day average DEX volume (they will check DEX data, not your claims)
+6. Security - audit from recognized firm
+7. Longevity - protocol that has been live and functional for 3+ months

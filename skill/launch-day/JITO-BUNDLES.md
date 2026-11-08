@@ -4,7 +4,7 @@ Solana's mempool is public. Without Jito, your LP creation is a sniper's opening
 
 ## What Jito Bundles Do
 
-A Jito bundle is a group of up to 5 transactions that execute atomically in order within a single block. Either all succeed or all fail — no partial execution.
+A Jito bundle is a group of up to 5 transactions that execute atomically in order within a single block. Either all succeed or all fail - no partial execution.
 
 For launch, this means:
 - LP creation plus initial liquidity deposit: atomic (no sniper window between)
@@ -49,7 +49,7 @@ const BLOCK_ENGINE_URL = "mainnet.block-engine.jito.wtf";
 const connection = new Connection("https://mainnet.helius-rpc.com/?api-key=YOUR_KEY");
 ```
 
-## Jito Tip — How Much to Pay
+## Jito Tip - How Much to Pay
 
 The Jito tip is paid to the validator who includes your bundle. It is separate from the transaction fee.
 

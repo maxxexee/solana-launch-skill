@@ -81,7 +81,7 @@ Initial Circulating Market Cap = initial_price × circulating_supply
 Rules:
 1. FDV at launch should be defensible vs. comparable protocols at the same stage
 2. Initial price × LP liquidity must achieve adequate depth
-3. Avoid sub-$0.001 prices — psychological barrier, hard for retail to calculate
+3. Avoid sub-$0.001 prices - psychological barrier, hard for retail to calculate
 
 **Range selection for CLMM at launch**
 
@@ -101,10 +101,10 @@ Upper bound:   $0.10   (10x up)
 
 | Option | Trust signal | Risk |
 |---|---|---|
-| Burn LP tokens | Maximum trust — liquidity is permanent | Cannot recover LP if needed |
-| Lock LP tokens (Streamflow/Magna) | High trust — verifiable on-chain timelock | LP released at end of lock |
-| Team multisig holds LP | Lower trust — requires community trust | Team can remove liquidity |
-| DAO controls LP | Aligned — governance owns liquidity | Governance lag in emergencies |
+| Burn LP tokens | Maximum trust - liquidity is permanent | Cannot recover LP if needed |
+| Lock LP tokens (Streamflow/Magna) | High trust - verifiable on-chain timelock | LP released at end of lock |
+| Team multisig holds LP | Lower trust - requires community trust | Team can remove liquidity |
+| DAO controls LP | Aligned - governance owns liquidity | Governance lag in emergencies |
 
 Lock LP tokens for a minimum of 12 months using an on-chain timelock. Publish the lock transaction hash at launch. This single action eliminates 90% of rug accusations.
 
@@ -128,13 +128,13 @@ await client.create({
 });
 ```
 
-## LP Seeding Transaction — Execution Order
+## LP Seeding Transaction - Execution Order
 
 This is the atomic sequence. Do not deviate.
 
 1. Deploy/verify program on mainnet (if not already live)
 2. Mint tokens to distribution wallets (multisig, treasury, LP wallet)
-3. Create pool (generates pool address — needed for Jito bundle)
+3. Create pool (generates pool address - needed for Jito bundle)
 4. Build LP creation and initial deposit transaction
 5. Bundle with Jito (→ see `JITO-BUNDLES.md`) for atomic execution
 6. Submit bundle

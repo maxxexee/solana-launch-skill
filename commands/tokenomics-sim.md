@@ -10,7 +10,7 @@ Ask for these values. Accept "unknown" for any field.
 1. Total supply (e.g. 1,000,000,000)
 2. Token price target at TGE (e.g. $0.01)
 
-Distribution buckets — ask for % and vesting for each:
+Distribution buckets - ask for % and vesting for each:
 3. Team allocation: ___% | cliff: ___ months | linear vest: ___ months
 4. Investor/seed allocation: ___% | cliff: ___ months | linear vest: ___ months
 5. Community/ecosystem: ___% | vesting: ___ (or "airdrop at TGE")
@@ -60,7 +60,7 @@ Month   Unlocking Tokens   Unlock Value   Pressure Ratio   Signal
 1       [X tokens]         $[X]           [X.XX]           [LOW / MEDIUM / HIGH]
 3       [X tokens]         $[X]           [X.XX]           [signal]
 6       [X tokens]         $[X]           [X.XX]           [signal]
-12      [X tokens]         $[X]           [X.XX]           [signal — team cliff]
+12      [X tokens]         $[X]           [X.XX]           [signal - team cliff]
 18      [X tokens]         $[X]           [X.XX]           [signal]
 24      [X tokens]         $[X]           [X.XX]           [signal]
 

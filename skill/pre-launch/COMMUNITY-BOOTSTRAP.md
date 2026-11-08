@@ -8,7 +8,7 @@ The worst time to build a community is the week before launch. The best time was
 
 Your community at launch is your first line of defense against FUD, your first source of organic distribution, and your first signal to market makers and exchanges that there is real demand.
 
-If your Discord was created less than 30 days before launch, you do not have a community — you have an announcement channel.
+If your Discord was created less than 30 days before launch, you do not have a community - you have an announcement channel.
 
 ## Pre-Launch Community Phases
 
@@ -58,7 +58,7 @@ general                (gated: complete onboarding)
 builders               (for devs building on the protocol)
 feedback               (structured: feature requests, bugs)
 governance             (when live: proposals and voting)
-security               (for reporting issues — monitored 24/7)
+security               (for reporting issues - monitored 24/7)
 ```
 
 Exclude: price-talk channels, speculation channels, gm/gn channels. These attract the wrong people.
@@ -90,7 +90,7 @@ Budget 10 to 15% of marketing budget max. Not more.
 
 Target builders and developers with credibility in the specific domain, not generic crypto Twitter accounts with 500K followers and 0.01% engagement.
 
-Give them a fact sheet — not a pitch — early access, and a clear ask: "please share your honest review after using it."
+Give them a fact sheet - not a pitch - early access, and a clear ask: "please share your honest review after using it."
 
 Red flag: any KOL who asks about "price targets" before asking about the product.
 

@@ -37,7 +37,7 @@ If unlock pressure is above 0.3, expect significant sell pressure.
 - Unlocks not publicly visible on-chain → community will assume the worst
 
 **Tools to model and publish vesting:**
-- Token Unlocks (tokenunlocks.app) — publish your schedule here before launch
+- Token Unlocks (tokenunlocks.app) - publish your schedule here before launch
 - Vesting programs: use SPL governance timelock or Streamflow/Valhalla for on-chain vesting
 - Never use "team says they won't sell" as a vesting mechanism
 
@@ -60,10 +60,10 @@ Must answer: what offsets inflation? (burn mechanism, buyback, fee sink)
 
 **Emission schedule checklist:**
 - [ ] Emission rate published and immutable or governance-controlled with timelock
-- [ ] Emissions go to stakers, LPs, contributors — not team wallets
+- [ ] Emissions go to stakers, LPs, contributors - not team wallets
 - [ ] Emission cliff at end of incentive period modeled and communicated
 
-## Token Utility — The Real Test
+## Token Utility - The Real Test
 
 Ask: if the token price went to zero, would anyone still need it?
 

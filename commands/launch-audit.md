@@ -92,7 +92,7 @@ GATE RESULTS
   Score: [X/5]
 
 LAUNCH BLOCKERS (fix before launch)
-[List each FAIL item with a one-line action. If none: "None — cleared for launch."]
+[List each FAIL item with a one-line action. If none: "None - cleared for launch."]
 
 CAUTIONS (address soon, not blocking)
 [List each WARN item with a recommended action. If none: "None."]

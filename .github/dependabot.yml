@@ -1,0 +1,31 @@
+# renovate configuration
+versioning: true
+
+npmAndYarn:
+  enabled: true
+  package-ecosystem: npm
+  schedule:
+    interval: weekly
+    time: "02:00"
+    timezone: UTC
+  open-pull-requests-limit: 10
+  reviewers:
+    - maxxexee
+  reviewersApproved: true
+  cobotGroups: {}
+  ignoreConditions:
+    - not authors
+    - not maintainer
+    - security
+  reviewPrivately: true
+  commitMessage:
+    prefix: "chore"
+    include: "scope"
+  commitMessageEnabled: false
+  commitPermissions: maintainers
+  branchNameTemplate: "dependabot/${packageManager}/#{packageName}-#{minorVersion}"
+  addLabels:
+    - "dependencies"
+  target: "main"
+  duplicate: "close"
+  assignees: []

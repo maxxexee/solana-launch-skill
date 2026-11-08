@@ -11,7 +11,7 @@ Sustainable growth is a system. Incentive-only growth is a loan you eventually r
 
 Most protocols get mercenary growth first and confuse it for sticky growth. The goal: convert mercs to believers before incentives decay.
 
-## Retention Framework — The First 30 Days
+## Retention Framework - The First 30 Days
 
 The first 30 days determine long-term retention. Most protocols have no plan for this.
 

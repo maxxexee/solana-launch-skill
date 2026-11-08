@@ -1,0 +1,16 @@
+{
+  "name": "solana-launch-skill",
+  "version": "1.0.0",
+  "description": "Agentic skill for launching a Solana token or protocol",
+  "main": "skill/SKILL.md",
+  "scripts": {
+    "check": "node scripts/check-repo.mjs"
+  },
+  "keywords": ["solana", "skill", "launch", "ai-kit"],
+  "author": "maxxexee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxxexee/solana-launch-skill.git"
+  }
+}

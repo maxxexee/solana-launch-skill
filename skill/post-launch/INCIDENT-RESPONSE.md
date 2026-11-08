@@ -6,20 +6,20 @@ Speed and clarity beat perfection. Say what you know, say what you do not know, 
 
 | Level | Definition | Response time |
 |---|---|---|
-| P0 — Critical | Active exploit, funds at risk, protocol frozen | Under 5 minutes |
-| P1 — High | Price anomaly above 30%, RPC outage, large unexpected transaction | Under 15 minutes |
-| P2 — Medium | UI down, minor contract bug found, data inaccuracy | Under 1 hour |
-| P3 — Low | Performance degradation, minor UI bug, community confusion | Under 24 hours |
+| P0 - Critical | Active exploit, funds at risk, protocol frozen | Under 5 minutes |
+| P1 - High | Price anomaly above 30%, RPC outage, large unexpected transaction | Under 15 minutes |
+| P2 - Medium | UI down, minor contract bug found, data inaccuracy | Under 1 hour |
+| P3 - Low | Performance degradation, minor UI bug, community confusion | Under 24 hours |
 
 ## P0: Active Exploit Response
 
 ### First 5 minutes
 
 ```
-T+0:00 — Monitoring alerts. Launch Lead called immediately.
-T+0:02 — Identify: is this confirmed exploit or suspected?
-T+0:03 — IF confirmed: pause protocol (if pause function exists) via multisig
-T+0:05 — War room opens. Auditor/security contact called.
+T+0:00 - Monitoring alerts. Launch Lead called immediately.
+T+0:02 - Identify: is this confirmed exploit or suspected?
+T+0:03 - IF confirmed: pause protocol (if pause function exists) via multisig
+T+0:05 - War room opens. Auditor/security contact called.
 ```
 
 ### Pause Protocol (if implemented)
@@ -41,7 +41,7 @@ First public message within 10 minutes of confirmation:
 ```
 We are investigating an issue with [protocol name].
 As a precaution, we have paused [specific function].
-User funds in [specific vault/pool] are [safe/at risk — be honest].
+User funds in [specific vault/pool] are [safe/at risk - be honest].
 We will update in 30 minutes.
 Do not interact with the protocol until further notice.
 ```
@@ -51,7 +51,7 @@ Rules for incident communication:
 2. Never speculate about cause in public until you know
 3. Never promise fund recovery you cannot guarantee
 4. Update every 30 minutes even if just to say "still investigating"
-5. Never go silent — silence is interpreted as worse than the reality
+5. Never go silent - silence is interpreted as worse than the reality
 
 ### Post-Exploit Forensics
 
@@ -71,14 +71,14 @@ curl "https://api.helius.xyz/v0/transactions?api-key={KEY}" \
 Publish within 72 hours of incident:
 
 ```markdown
-## Post-Mortem: [Protocol] [Incident Type] — [Date]
+## Post-Mortem: [Protocol] [Incident Type] - [Date]
 
 ### Summary
 [1-3 sentences: what happened, what was lost, what was not affected]
 
 ### Timeline
-[T+0:00] — [Event]
-[T+0:05] — [Response]
+[T+0:00] - [Event]
+[T+0:05] - [Response]
 
 ### Root Cause
 [Technical explanation. Be specific. Vague explanations destroy trust.]
@@ -115,7 +115,7 @@ The best prevention is pre-built trust infrastructure: LP locked on-chain before
 
 A sudden price drop of 40% or more in under 1 hour is an incident.
 
-First check — is this organic or an attack?
+First check - is this organic or an attack?
 
 ```bash
 # Check largest sells in last 2 hours on Birdeye or DexScreener

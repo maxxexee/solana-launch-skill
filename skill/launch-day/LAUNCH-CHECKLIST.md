@@ -39,7 +39,7 @@ Required tools open and authenticated:
 
 - [ ] All team in war room
 - [ ] Final blockhash freshness check (get latest, confirm RPC is live)
-- [ ] Gas wallets topped up — operator wallet has more than 2 SOL for fees
+- [ ] Gas wallets topped up - operator wallet has more than 2 SOL for fees
 - [ ] Community Lead has announcement ready to paste instantly
 - [ ] Monitoring dashboard open and live
 - [ ] Escalation contact pinged and confirmed available
@@ -49,10 +49,10 @@ Required tools open and authenticated:
 
 One person executes. Others watch. No parallel execution.
 
-### Step 1 — Pool Creation (via Jito bundle)
+### Step 1 - Pool Creation (via Jito bundle)
 
 ```
-[ ] Simulate bundle — all transactions pass
+[ ] Simulate bundle - all transactions pass
 [ ] Submit bundle to Jito (all regional endpoints)
 [ ] Confirm bundle finalized on-chain
 [ ] Verify: pool address is correct
@@ -60,7 +60,7 @@ One person executes. Others watch. No parallel execution.
 [ ] Verify: price is at expected initial value
 ```
 
-### Step 2 — LP Lock
+### Step 2 - LP Lock
 
 ```
 [ ] Submit LP token lock transaction (Streamflow/Magna)
@@ -68,7 +68,7 @@ One person executes. Others watch. No parallel execution.
 [ ] Publish lock transaction hash in Discord announcements
 ```
 
-### Step 3 — Distribution (if airdrop)
+### Step 3 - Distribution (if airdrop)
 
 ```
 [ ] Execute airdrop (use batch transfer program for more than 100 addresses)
@@ -76,7 +76,7 @@ One person executes. Others watch. No parallel execution.
 [ ] Spot-check 5 random recipient wallets on explorer
 ```
 
-### Step 4 — Protocol Activation
+### Step 4 - Protocol Activation
 
 ```
 [ ] Enable any protocol features that were gated pre-launch
@@ -84,7 +84,7 @@ One person executes. Others watch. No parallel execution.
 [ ] Test one end-to-end protocol interaction from a fresh wallet
 ```
 
-### Step 5 — Go Public
+### Step 5 - Go Public
 
 ```
 [ ] Community Lead sends Discord announcement (NOT before Step 4 confirmed)
